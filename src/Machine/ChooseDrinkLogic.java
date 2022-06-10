@@ -12,9 +12,9 @@ public class ChooseDrinkLogic {
         System.out.println("Hello! Welcome to our first DrinkShop.");
         System.out.println("              Our MENU:               ");
         System.out.println("       1. Americano     1.2$          ");
-        System.out.println("       2. Cappuccino    1.2$          ");
-        System.out.println("       3. Latte         1.2$          ");
-        System.out.println("       4. Tea           1.2$          ");
+        System.out.println("       2. Cappuccino    1.4$          ");
+        System.out.println("       3. Latte         1.5$          ");
+        System.out.println("       4. Tea           0.9$          ");
         System.out.println("Enter number from 1 to 4 to select a drink");
         System.out.println("Enter 0 if you have completed the selection");
         Drinks[] drinks = new Drinks[5];
