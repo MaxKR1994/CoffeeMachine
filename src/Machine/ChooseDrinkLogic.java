@@ -32,9 +32,9 @@ public class ChooseDrinkLogic {
             }
         }
     }
-    private static void fillDrinks(Drinks[] Array) {
-        for (int i = 0; i < Array.length; i++) {
-            Array[i] = new Drinks();
+    private static void fillDrinks(Drinks[] drinks) {
+        for (int i = 0; i < drinks.length; i++) {
+            drinks[i] = new Drinks();
         }
     }
     private static void totalCost(Drinks[] drinks) {
